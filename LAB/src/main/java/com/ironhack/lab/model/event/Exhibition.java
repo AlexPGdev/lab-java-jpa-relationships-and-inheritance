@@ -3,5 +3,5 @@ package com.ironhack.lab.model.event;
 import jakarta.persistence.Entity;
 
 @Entity
-public class Exhebition extends Event {
+public class Exhibition extends Event {
 }
