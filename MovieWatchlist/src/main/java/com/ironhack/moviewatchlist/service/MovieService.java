@@ -99,7 +99,7 @@ public class MovieService {
 
     public Mono<List<info.movito.themoviedbapi.model.core.Movie>> getChatGPT(User user) throws TmdbException {
         OpenAIClient client = OpenAIOkHttpClient.builder()
-                .apiKey("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")
+                .apiKey("key")
                 .build();
 
 //        Stream<String> movies = movieRepository.findAll().stream().map(Movie::getTitle);

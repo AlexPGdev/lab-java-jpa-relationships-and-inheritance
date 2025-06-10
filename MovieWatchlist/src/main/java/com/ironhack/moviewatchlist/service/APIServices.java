@@ -26,7 +26,7 @@ public class APIServices {
     @Value("${api.rapidapi.key}")
     private String rapidApiKey;
 
-    TmdbApi tmdbApi = new TmdbApi("eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmMzFjMWMzZTRjNDUyOWQ0NmU1OTI5ZTk3ZGUzZjIyZSIsIm5iZiI6MTc0NzkwMzA3My4xMjEsInN1YiI6IjY4MmVlMjYxOTY3ZWY0MjY3YzFjMWUzMyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Khgl26aea7bx1OYXVOf8Ai2ZuqzxmwKk37jRnGkqZfs");
+    TmdbApi tmdbApi = new TmdbApi("key");
 
     public APIServices(WebClient.Builder webClientBuilder) throws TmdbException {
         this.omdbWebClient = webClientBuilder.baseUrl("https://www.omdbapi.com").build();

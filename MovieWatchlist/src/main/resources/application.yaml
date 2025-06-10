@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/watchlist_db
-    username: root
-    password: root1234
+    url: "database"
+    username: "username"
+    password: "password"
 
   jpa:
     hibernate:
@@ -16,7 +16,7 @@ server:
 
 api:
   omdb:
-    key: dbda86c8
+    key: "key"
 
   rapidapi:
-      key: ef8d1616abmsh60d482a4b841239p11601ejsnde04d2741bc4
+      key: "key"
