@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/watchlist_db
+    username: root
+    password: root1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
+
+server:
+  error:
+    include-stacktrace: never
+
+api:
+  omdb:
+    key: dbda86c8
+
+  rapidapi:
+      key: ef8d1616abmsh60d482a4b841239p11601ejsnde04d2741bc4
